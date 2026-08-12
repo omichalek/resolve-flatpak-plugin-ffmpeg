@@ -2,9 +2,9 @@
 # Flatpak Configuration for building DaVinci Resolve
 #
 ####
-id: com.blackmagic.ResolveStudio.ioplugin.ffmpeg_encoder_plugin_dvcp_bundle
+id: com.blackmagicdesign.DaVinciResolve.ioplugin.ffmpeg_encoder_plugin_dvcp_bundle
 branch: '1.0'
-runtime: com.blackmagic.ResolveStudio
+runtime: com.blackmagicdesign.DaVinciResolve
 runtime-version: &runtime-version 'master'
 sdk: org.freedesktop.Sdk//24.08
 build-extension: true
